@@ -1,0 +1,67 @@
+# Python files
+*.py[cod]
+*.pyo
+__pycache__/
+*.pyd
+
+# Django stuff
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Configuration and secret files
+*.env
+*.DS_Store
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+
+# Logs and debugging
+*.log
+*.pot
+*.pyc
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+coverage.xml
+
+# Test artifacts
+*.pytest_cache/
+.tox/
+.nox/
+.dist/
+.wheels/
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Node modules (if using JavaScript/Node.js)
+node_modules/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Miscellaneous
+*.bak
+*.orig
+*.tmp
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
